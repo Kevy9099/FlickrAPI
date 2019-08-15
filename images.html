@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>Flickr Image Grabber</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script async src='./javascript/index.js'></script>
+
+</head>
+
+<body>
+
+    <h1>Flickr Image Grabber</h1>
+    <h2>Kevin Mak</h2>
+    <hr>
+    <input id="search" type="text" onfocus="this.value=''" value="What are you looking for?" />
+    <button id="button" type="submit">Search<br></button>
+    <hr>
+    <div id="images"></div>
+   
+</body>
+
+<footer>
+
+    <p>Image retrieved using the Flickr Public API Designed for the Kapsch Interview Process</p>
+
+    <script>
+
+        //shows current date and time.
+        var d = Date(Date.now());
+        a = d.toString()
+        document.write(a)
+
+    </script>
+
+</footer>
+
+</html>
